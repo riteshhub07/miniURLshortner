@@ -1,9 +1,5 @@
-import json
-import os
-import random
-import string
+import json, os, random, string, argparse
 from urllib.parse import urlparse
-import argparse
 
 #we need something that saves data to disk, we will use a json file as its human readable nd part of std lib
 DATA_FILE = "data.json"
